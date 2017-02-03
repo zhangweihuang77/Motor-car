@@ -1,0 +1,335 @@
+.view {
+  position: relative;
+  overflow: hidden;
+  background: #f4e9e5;
+  margin: 0 auto;
+  z-index: 999;
+  height: 100%;
+}
+.start {
+  -webkit-transition: left 3s linear;
+  transition: left 3s linear;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  left: -300%;
+}
+.start .road {
+  position: absolute;
+  top: 35%;
+  height: 10%;
+  z-index: -1;
+}
+.train {
+  position: absolute;
+  top: 21%;
+  left: 47%;
+  width: 270%;
+}
+.page {
+  position: relative;
+  max-width: 640px;
+  height: 100%;
+  float: left;
+}
+.p1-1 {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  width: 63%;
+}
+.p1-2 {
+  position: absolute;
+  top: 46%;
+  left: -20%;
+  width: 82%;
+}
+.p1-3 {
+  position: absolute;
+  top: 28%;
+  width: 85%;
+}
+.p-4 {
+  position: absolute;
+  top: 44%;
+  left: -69%;
+  width: 135%;
+}
+.p-5 {
+  position: absolute;
+  top: 40%;
+  left: 49%;
+  width: 50%;
+}
+.p-6 {
+  position: absolute;
+  top: 67%;
+  left: 47%;
+  width: 46%;
+}
+.p-7 {
+  position: absolute;
+  top: 55%;
+  left: 14%;
+  width: 43%;
+}
+.p-8 {
+  position: absolute;
+  top: 4%;
+  left: 3%;
+  width: 100%;
+  z-index: -1;
+}
+.p-9 {
+  position: absolute;
+  top: 25%;
+  left: 6%;
+  width: 35%;
+}
+.p-10 {
+  position: absolute;
+  top: 38%;
+  left: 56%;
+  width: 25%;
+}
+.p1-top {
+  position: absolute;
+  top: -1%;
+  left: 17%;
+  width: 135%;
+  z-index: -1;
+}
+.btn-go {
+  position: absolute;
+  z-index: 99;
+  top: 88%;
+  left: 1%;
+  width: 48%;
+}
+.select-text {
+  position: absolute;
+  z-index: 99;
+  top: 65%;
+  left: 31%;
+  width: 21%;
+}
+.content {
+  display: none;
+  position: relative;
+}
+.content .bg-road {
+  width: 100%;
+  height: 100%;
+}
+.road-title {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 35%;
+}
+.btn-close {
+  position: absolute;
+  left: 88%;
+  top: 2%;
+  width: 10%;
+}
+.btn-shiyijian {
+  position: absolute;
+  top: 31%;
+  left: 55%;
+  height: 4%;
+}
+.btn-fengbaozhan {
+  position: absolute;
+  top: 53%;
+  left: 22%;
+  height: 4%;
+}
+.btn-xiangmeishi {
+  position: absolute;
+  top: 62%;
+  left: 64%;
+  height: 4%;
+}
+.btn-zhonghuacheng {
+  position: absolute;
+  top: 79%;
+  left: 47%;
+  height: 4%;
+}
+.mask {
+  height: 100%;
+  display: none;
+  position: relative;
+  z-index: 99;
+}
+.mask .bg {
+  width: 100%;
+  height: 100%;
+}
+.mask .btn-close2 {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 10%;
+}
+.mask .btn-goon {
+  position: absolute;
+  top: 92%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 25%;
+}
+.m1,
+.m2,
+.m3,
+.m4 {
+  display: none;
+  -webkit-transition: left 10s;
+  transition: left 10s;
+  position: relative;
+  overflow: hidden;
+  left: -1000%;
+}
+.m1 .road,
+.m2 .road,
+.m3 .road,
+.m4 .road {
+  position: absolute;
+  top: 35%;
+  height: 10%;
+  z-index: -1;
+}
+.m1 .main-top,
+.m2 .main-top,
+.m3 .main-top,
+.m4 .main-top {
+  position: absolute;
+  z-index: -1;
+  left: 18%;
+  top: -1%;
+  width: 82%;
+}
+.m1 .main-bottom,
+.m2 .main-bottom,
+.m3 .main-bottom,
+.m4 .main-bottom {
+  position: absolute;
+  left: 18%;
+  top: 21%;
+  width: 82%;
+}
+.m1 .r8-bottom,
+.m2 .r8-bottom,
+.m3 .r8-bottom,
+.m4 .r8-bottom,
+.m1 .r4-bottom1,
+.m2 .r4-bottom1,
+.m3 .r4-bottom1,
+.m4 .r4-bottom1,
+.m1 .r5-bottom,
+.m2 .r5-bottom,
+.m3 .r5-bottom,
+.m4 .r5-bottom {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  width: 16%;
+}
+.m1 .r6-bottom,
+.m2 .r6-bottom,
+.m3 .r6-bottom,
+.m4 .r6-bottom {
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  width: 16%;
+}
+.m1 .r8-top1,
+.m2 .r8-top1,
+.m3 .r8-top1,
+.m4 .r8-top1 {
+  position: absolute;
+  z-index: -1;
+  top: 10%;
+  left: 1%;
+  width: 17%;
+}
+.m1 .r4-top1,
+.m2 .r4-top1,
+.m3 .r4-top1,
+.m4 .r4-top1,
+.m1 .r5-top,
+.m2 .r5-top,
+.m3 .r5-top,
+.m4 .r5-top {
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: 1%;
+  width: 17%;
+}
+.m1 .btnGo,
+.m2 .btnGo,
+.m3 .btnGo,
+.m4 .btnGo {
+  position: absolute;
+  top: 91%;
+  left: .5%;
+  width: 3%;
+}
+@-webkit-keyframes bounce-up {
+  25% {
+    -webkit-transform: translateY(5px);
+  }
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  75% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+@keyframes bounce-up {
+  25% {
+    transform: translateY(5px);
+  }
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+}
+.animate-bounce-up {
+  -webkit-animation: bounce-up 2s linear infinite;
+  animation: bounce-up 2s linear infinite;
+}
+#loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: #06020c;
+  z-index: 99;
+}
+#loading .pacman {
+  position: absolute;
+  top: 46%;
+  left: 40%;
+}
+#loading .text {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 58%;
+}
+#loading .text p {
+  font-size: 1rem;
+  color: #fff;
+}
